@@ -83,7 +83,13 @@ Assets/Meu game/
 
 ## 📥 Download
 
-Em breve, a versão jogável para Windows estará disponível na aba **Releases** deste repositório.
+A demo jogável para Windows está disponível na página de Releases:
+
+👉 **[Baixar Crypto Run v1.0 (Demo)](https://github.com/loazelan-blip/CryptoRun/releases/latest)**
+
+1. Baixe o arquivo **CryptoRun_Windows.zip**.
+2. Clique com o botão direito no arquivo e escolha **Extrair tudo**.
+3. Abra a pasta extraída e dê dois cliques em **Crypto Run.exe**.
 
 ## 📦 Créditos
 
