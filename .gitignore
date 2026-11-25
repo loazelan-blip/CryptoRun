@@ -87,3 +87,12 @@ sysinfo.txt
 # ...menos o logo do jogo
 !/Assets/Meu game/Imagens/**/Logo de corrida Crypto Run*.png
 !/Assets/Meu game/Imagens/**/Logo de corrida Crypto Run*.png.meta
+
+# Musicas autorais (trilha original) - estas sobem
+!/Assets/Meu game/Sons Gerais/
+!/Assets/Meu game/Sons Gerais.meta
+/Assets/Meu game/Sons Gerais/*
+!/Assets/Meu game/Sons Gerais/game.wav
+!/Assets/Meu game/Sons Gerais/game.wav.meta
+!/Assets/Meu game/Sons Gerais/GameStart.wav
+!/Assets/Meu game/Sons Gerais/GameStart.wav.meta
