@@ -1,0 +1,89 @@
+# ============================================
+#  Crypto Run - o que NAO sobe para o GitHub
+# ============================================
+
+# --- Pastas que o Unity recria sozinho ---
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# --- Copias perdidas dentro de ProjectSettings (Library, Logs, Assets...) ---
+/ProjectSettings/*/
+
+# --- Arquivos do Visual Studio ---
+/.vs/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# --- Outros arquivos gerados ---
+*.unitypackage
+*.apk
+*.aab
+*_BurstDebugInformation_DoNotShip/
+crashlytics-buildid.txt
+sysinfo.txt
+
+# ============================================
+#  Assets: ignora tudo e libera so o que e meu
+#  (pacotes baixados ficam de fora)
+# ============================================
+/Assets/*
+!/Assets/Meu game/
+!/Assets/Meu game.meta
+!/Assets/DetectorRodasNPC.cs
+!/Assets/DetectorRodasNPC.cs.meta
+!/Assets/InputSystem_Actions.inputactions
+!/Assets/InputSystem_Actions.inputactions.meta
+!/Assets/Settings/
+!/Assets/Settings.meta
+
+# Dentro de "Meu game": libera scripts, cenas, controles, mixer e prefabs montados
+/Assets/Meu game/*
+!/Assets/Meu game/Scripts/
+!/Assets/Meu game/Scripts.meta
+!/Assets/Meu game/InputActions/
+!/Assets/Meu game/InputActions.meta
+!/Assets/Meu game/*.unity
+!/Assets/Meu game/*.unity.meta
+!/Assets/Meu game/MixerPrincipal.mixer
+!/Assets/Meu game/MixerPrincipal.mixer.meta
+!/Assets/Meu game/Kits/
+!/Assets/Meu game/Kits.meta
+!/Assets/Meu game/CarKits/
+!/Assets/Meu game/CarKits.meta
+!/Assets/Meu game/Material/
+!/Assets/Meu game/Material.meta
+!/Assets/Meu game/Imagens/
+!/Assets/Meu game/Imagens.meta
+
+# Dentro dessas pastas, os modelos 3D e imagens baixados ficam de fora
+/Assets/Meu game/Kits/**/*.fbx
+/Assets/Meu game/Kits/**/*.fbx.meta
+/Assets/Meu game/Kits/**/*.blend
+/Assets/Meu game/Kits/**/*.blend.meta
+/Assets/Meu game/CarKits/**/*.fbx
+/Assets/Meu game/CarKits/**/*.fbx.meta
+/Assets/Meu game/CarKits/**/*.blend
+/Assets/Meu game/CarKits/**/*.blend.meta
+/Assets/Meu game/Imagens/**/*.png
+/Assets/Meu game/Imagens/**/*.png.meta
+/Assets/Meu game/Imagens/**/*.jpg
+/Assets/Meu game/Imagens/**/*.jpg.meta
+
+# ...menos o logo do jogo
+!/Assets/Meu game/Imagens/**/Logo de corrida Crypto Run*.png
+!/Assets/Meu game/Imagens/**/Logo de corrida Crypto Run*.png.meta
